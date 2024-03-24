@@ -1,0 +1,24 @@
+.card-container {
+    display: flex; /* Utilizamos flexbox para colocar las tarjetas una al lado de la otra */
+    flex-wrap: wrap; /* Permitimos que las tarjetas se envuelvan en una nueva línea si el contenedor es demasiado estrecho */
+    justify-content: center; /* Centramos las tarjetas horizontalmente dentro del contenedor */
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 300px; /* Ancho fijo para cada tarjeta */
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .card-body {
+    padding: 10px 0;
+  }
